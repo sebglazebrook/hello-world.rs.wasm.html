@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  appserver:
+    image: ruby:alpine
+    ports:
+      - 9292:9292
+    command: "sh -c 'bundle install && rackup --host 0.0.0.0'"
+    working_dir: /code
+    volumes:
+      - ./:/code/
+    #environment:
+      #REDBUBBLE_HOST: 'redbubble.test'
