@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>wasm wasm wasm</title>
+		<script>
+    function readUtf8String(memory, pointer) {
+      let s = "";
+      for (i = pointer; memory[i]!==0; i++) {
+        s += String.fromCharCode(memory[i]);
+      }
+      return s;
+    }
+    fetch('wasm/hello_world.wasm').then(response =>
+      response.arrayBuffer()
+    ).then(bytes =>
+      WebAssembly.instantiate(bytes, {})
+    ). then(results => {
+      let memory = new Uint8Array(results.instance.exports.memory.buffer);
+      let pointer = results.instance.exports.hello_world();
+      alert(readUtf8String(memory, pointer));
+    });
+    </script>
+	</head>
+</html>
