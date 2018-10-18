@@ -10,7 +10,8 @@
         s += String.fromCharCode(memory[i]);
       }
       return s;
-    }
+    };
+
     fetch('wasm/hello_world.wasm').then(response =>
       response.arrayBuffer()
     ).then(bytes =>

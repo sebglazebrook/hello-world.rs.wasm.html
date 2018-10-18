@@ -1,0 +1,10 @@
+/home/sebastian/code/hello-world.rs.wasm.html/hello-world/target/release/deps/libserde_derive_internals-5cdb1c90b4ee5913.rlib: /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/lib.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/ast.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/attr.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/ctxt.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/case.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/check.rs
+
+/home/sebastian/code/hello-world.rs.wasm.html/hello-world/target/release/deps/serde_derive_internals-5cdb1c90b4ee5913.d: /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/lib.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/ast.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/attr.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/ctxt.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/case.rs /home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/check.rs
+
+/home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/lib.rs:
+/home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/ast.rs:
+/home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/attr.rs:
+/home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/ctxt.rs:
+/home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/case.rs:
+/home/sebastian/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.20.1/src/check.rs:
